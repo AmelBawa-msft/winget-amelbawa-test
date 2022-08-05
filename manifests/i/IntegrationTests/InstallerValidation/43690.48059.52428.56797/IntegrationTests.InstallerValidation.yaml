@@ -1,0 +1,18 @@
+﻿PackageIdentifier: IntegrationTests.InstallerValidation
+PackageVersion: 43690.48059.52428.56797
+PackageName: Installer validation
+Publisher: Microsoft Corporation
+PackageUrl: https://code.visualstudio.com
+License: Copyright (c) Microsoft Corporation
+ShortDescription: Test for manifest installer
+Moniker: vscode
+PackageFamilyName: FakeInstallerForTesting_125rzkzqaqjwj
+MinimumOSVersion: 10.0.0.0
+Installers:
+- Architecture: x64
+  InstallerUrl: https://stpkgmanvalwestustest.blob.core.windows.net/test-installers/TestInstaller.msix
+  InstallerType: msix
+  InstallerSha256: cc8bee419c7fa96f875621d4e3b38c083e90ec6d32afeeb9ebc86824d2d2a773
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
