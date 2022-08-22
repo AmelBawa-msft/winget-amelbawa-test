@@ -1,5 +1,8 @@
+# Automatically updated by the winget bot at 2022/Aug/22
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.0.0.schema.json
+
 PackageIdentifier: Github.Atom
-PackageVersion: 1.43.0
+PackageVersion: 1.60.0
 PackageName: Atom
 Publisher: Github
 PackageUrl: https://atom.io/
@@ -12,7 +15,7 @@ Installers:
   InstallerType: exe
   InstallerSwitches:
     Silent: /silent
-  InstallerSha256: 8A240A17642875C0AEB925CAE81D5800FE58452022945423CFA44B3378912D8C
+  InstallerSha256: 5A20D6119A5E9AA9C1054BAEADD62C8E195078EDDD2A899F53CE0354CA010E06
 PackageLocale: en-US
 ManifestType: singleton
 ManifestVersion: 1.0.0
