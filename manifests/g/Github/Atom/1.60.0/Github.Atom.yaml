@@ -1,0 +1,21 @@
+# Automatically updated by the winget bot at 2022/Aug/22
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.0.0.schema.json
+
+PackageIdentifier: Github.Atom
+PackageVersion: 1.60.0
+PackageName: Atom
+Publisher: Github
+PackageUrl: https://atom.io/
+License: Copyright (c) 2020 GitHub Inc.
+LicenseUrl: https://help.github.com/en/github/site-policy/github-terms-of-service
+ShortDescription: A hackable text editor for the 21st Century.
+Installers:
+- Architecture: x64
+  InstallerUrl: https://atom.io/download/windows_x64
+  InstallerType: exe
+  InstallerSwitches:
+    Silent: /silent
+  InstallerSha256: 5A20D6119A5E9AA9C1054BAEADD62C8E195078EDDD2A899F53CE0354CA010E06
+PackageLocale: en-US
+ManifestType: singleton
+ManifestVersion: 1.0.0
