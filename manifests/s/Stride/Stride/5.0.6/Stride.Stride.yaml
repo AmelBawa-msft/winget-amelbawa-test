@@ -1,7 +1,10 @@
+# Automatically updated by the winget bot at 2022/Aug/22
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.0.0.schema.json
+
 PackageIdentifier: Stride.Stride
 Publisher: Stride
 PackageName: Stride
-PackageVersion: 4.0.1.0
+PackageVersion: 5.0.6
 License: MIT
 InstallerType: exe
 LicenseUrl: https://github.com/stride3d/stride/raw/master/LICENSE.md
@@ -26,7 +29,7 @@ Installers:
 - Architecture: x64
   InstallerType: exe
   InstallerUrl: https://stride3d.net/files/StrideSetup.exe
-  InstallerSha256: 182FDDCEC8EDAB176F4380EC3952319ED0BBFDCDAB577A01F5D222876DB50CE9
+  InstallerSha256: CEF0C590BBF88C948495F8B3D0681732056A2B44F3C0169F488B265FED9AE29F
   InstallerSwitches:
     Silent: /quiet
     SilentWithProgress: /passive
